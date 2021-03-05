@@ -1,0 +1,102 @@
+Belief Nodes:
+BN node=0 with edges 2-3:F, 4-5:F with utility=-4 goto 1
+BN node=0 with edges 2-3:U, 4-5:F with utility=-18.5 goto 1
+BN node=0 with edges 2-3:B, 4-5:F with utility=-31 goto 1
+BN node=0 with edges 2-3:F, 4-5:U with utility=-4 goto 1
+BN node=0 with edges 2-3:U, 4-5:U with utility=-41.0 goto 1
+BN node=0 with edges 2-3:B, 4-5:U with utility=-76.0 goto 1
+BN node=0 with edges 2-3:F, 4-5:B with utility=-4 goto 1
+BN node=0 with edges 2-3:U, 4-5:B with utility=-53.5 goto 1
+BN node=0 with edges 2-3:B, 4-5:B with utility=-101 goto 1
+BN node=1 with edges 2-3:F, 4-5:F with utility=-3 goto 2
+BN node=1 with edges 2-3:U, 4-5:F with utility=-17.5 goto 2
+BN node=1 with edges 2-3:B, 4-5:F with utility=-30 goto 4
+BN node=1 with edges 2-3:F, 4-5:U with utility=-3 goto 2
+BN node=1 with edges 2-3:U, 4-5:U with utility=-40.0 goto 2
+BN node=1 with edges 2-3:B, 4-5:U with utility=-75.0 goto 4
+BN node=1 with edges 2-3:F, 4-5:B with utility=-3 goto 2
+BN node=1 with edges 2-3:U, 4-5:B with utility=-52.5 goto 2
+BN node=1 with edges 2-3:B, 4-5:B with utility=-100 goto 6
+BN node=2 with edges 2-3:F, 4-5:F with utility=-2 goto 3
+BN node=2 with edges 2-3:U, 4-5:F is unreachable
+BN node=2 with edges 2-3:B, 4-5:F with utility=-31 goto 1
+BN node=2 with edges 2-3:F, 4-5:U with utility=-2 goto 3
+BN node=2 with edges 2-3:U, 4-5:U is unreachable
+BN node=2 with edges 2-3:B, 4-5:U with utility=-76.0 goto 1
+BN node=2 with edges 2-3:F, 4-5:B with utility=-2 goto 3
+BN node=2 with edges 2-3:U, 4-5:B is unreachable
+BN node=2 with edges 2-3:B, 4-5:B with utility=-101 goto 1
+BN node=3 with edges 2-3:F, 4-5:F with utility=-1 goto 6
+BN node=3 with edges 2-3:U, 4-5:F is unreachable
+BN node=3 with edges 2-3:B, 4-5:F with utility=-1 goto 6
+BN node=3 with edges 2-3:F, 4-5:U with utility=-1 goto 6
+BN node=3 with edges 2-3:U, 4-5:U is unreachable
+BN node=3 with edges 2-3:B, 4-5:U with utility=-1 goto 6
+BN node=3 with edges 2-3:F, 4-5:B with utility=-1 goto 6
+BN node=3 with edges 2-3:U, 4-5:B is unreachable
+BN node=3 with edges 2-3:B, 4-5:B with utility=-1 goto 6
+BN node=4 with edges 2-3:F, 4-5:F with utility=-13 goto 1
+BN node=4 with edges 2-3:U, 4-5:F with utility=-20 goto 5
+BN node=4 with edges 2-3:B, 4-5:F with utility=-20 goto 5
+BN node=4 with edges 2-3:F, 4-5:U is unreachable
+BN node=4 with edges 2-3:U, 4-5:U is unreachable
+BN node=4 with edges 2-3:B, 4-5:U is unreachable
+BN node=4 with edges 2-3:F, 4-5:B with utility=-13 goto 1
+BN node=4 with edges 2-3:U, 4-5:B with utility=-62.5 goto 1
+BN node=4 with edges 2-3:B, 4-5:B with utility=-110 goto 1
+BN node=5 with edges 2-3:F, 4-5:F with utility=-10 goto 6
+BN node=5 with edges 2-3:U, 4-5:F with utility=-10 goto 6
+BN node=5 with edges 2-3:B, 4-5:F with utility=-10 goto 6
+BN node=5 with edges 2-3:F, 4-5:U is unreachable
+BN node=5 with edges 2-3:U, 4-5:U is unreachable
+BN node=5 with edges 2-3:B, 4-5:U is unreachable
+BN node=5 with edges 2-3:F, 4-5:B with utility=-10 goto 6
+BN node=5 with edges 2-3:U, 4-5:B with utility=-10 goto 6
+BN node=5 with edges 2-3:B, 4-5:B with utility=-10 goto 6
+BN node=6 with edges 2-3:F, 4-5:F with utility=0 target
+BN node=6 with edges 2-3:U, 4-5:F with utility=0 target
+BN node=6 with edges 2-3:B, 4-5:F with utility=0 target
+BN node=6 with edges 2-3:F, 4-5:U with utility=0 target
+BN node=6 with edges 2-3:U, 4-5:U with utility=0 target
+BN node=6 with edges 2-3:B, 4-5:U with utility=0 target
+BN node=6 with edges 2-3:F, 4-5:B with utility=0 target
+BN node=6 with edges 2-3:U, 4-5:B with utility=0 target
+BN node=6 with edges 2-3:B, 4-5:B with utility=0 target
+
+Scenario 1: 2-3:F, 4-5:B
+The edges in the graph instance are:
+(0, 1)
+(0, 6)
+(1, 2)
+(1, 4)
+(1, 6)
+(2, 3)
+(3, 6)
+(5, 6)
+The agent takes the path:
+{'node': 0, (2, 3): 0.5, (4, 5): 0.5}
+{'node': 1, (2, 3): 0.5, (4, 5): 0.5}
+{'node': 2, (2, 3): 0, (4, 5): 0.5}
+{'node': 3, (2, 3): 0, (4, 5): 0.5}
+{'node': 6, (2, 3): 0, (4, 5): 0.5}
+total cost of trip was 4
+
+Scenario 2: 2-3:B, 4-5:F
+The edges in the graph instance are:
+(0, 1)
+(0, 6)
+(1, 2)
+(1, 4)
+(1, 6)
+(3, 6)
+(4, 5)
+(5, 6)
+The agent takes the path:
+{'node': 0, (2, 3): 0.5, (4, 5): 0.5}
+{'node': 1, (2, 3): 0.5, (4, 5): 0.5}
+{'node': 2, (2, 3): 1, (4, 5): 0.5}
+{'node': 1, (2, 3): 1, (4, 5): 0.5}
+{'node': 4, (2, 3): 1, (4, 5): 0}
+{'node': 5, (2, 3): 1, (4, 5): 0}
+{'node': 6, (2, 3): 1, (4, 5): 0}
+total cost of trip was 33
